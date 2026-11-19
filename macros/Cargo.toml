@@ -1,0 +1,16 @@
+[package]
+name = "gnu2-tls-macros"
+description = "Attribute macro for the gnu2-tls crate"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+readme.workspace = true
+homepage.workspace = true
+repository.workspace = true
+
+[lib]
+proc-macro = true
+
+[lints]
+workspace = true
